@@ -41,13 +41,10 @@ Install dependencies with
 $ pip3 install -r examples/requirements-nlp.txt
 ```
 
-Set the access token into the envrinment variable
+Set the access token into the envrinment variable, following https://cloud.google.com/natural-language/docs/reference/libraries#cloud-console
 
 ```
-$ export TWITTER_CONSUMER_KEY=<your-consumer-key> \
-       TWITTER_CONSUMER_SECRET=<your-consumer-secret> \
-       TWITTER_ACCESS_KEY=<your-access-key> \
-       TWITTER_ACCESS_SECRET=<your-access-secret>
+$ export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
 ```
 
 Run the demo
