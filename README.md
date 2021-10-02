@@ -58,3 +58,7 @@ For example
 ```
 $ python3 nlp.py i-have-a-dream.txt en-us
 ```
+
+## User Stories
+
+See [USER-STORY.md](./USER-STORY.md).
