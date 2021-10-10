@@ -62,3 +62,44 @@ $ python3 nlp.py i-have-a-dream.txt en-us
 ## User Stories
 
 See [USER-STORY.md](./USER-STORY.md).
+
+## Final Product
+
+The product will do sentiment analysis with tweets under a hashtag (e.g., `#china`) and show the overall aggregated result for those tweets.
+
+### How to Run
+
+Install dependencies with
+
+```
+$ pip3 install -r examples/requirements-nlp.txt
+$ pip3 install -r examples/requirements-twitter.txt
+```
+
+Set the access token into the envrinment variable
+
+```
+$ export TWITTER_CONSUMER_KEY=<your-consumer-key> \
+       TWITTER_CONSUMER_SECRET=<your-consumer-secret> \
+       TWITTER_ACCESS_KEY=<your-access-key> \
+       TWITTER_ACCESS_SECRET=<your-access-secret>
+$ export GOOGLE_APPLICATION_CREDENTIALS="KEY_PATH"
+```
+
+Run the product:
+
+Run the demo
+
+```
+$ python3 twitter-insight.py <hashtag>
+```
+
+For example:
+
+```
+$ python3 twitter-insight.py google
+```
+
+### Result
+
+![](./img/result.png)
