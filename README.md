@@ -103,3 +103,11 @@ $ python3 twitter-insight.py google
 ### Result
 
 ![](./img/result.png)
+
+### How to Run Unit Test
+
+Run:
+
+```
+$ python3 test.py
+```

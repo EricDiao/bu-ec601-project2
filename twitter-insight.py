@@ -124,7 +124,7 @@ def _show_usage():
     assert len(sys.argv) >= 1
     print("Usage:", file=sys.stderr)
     print("", file=sys.stderr)
-    print("{} <hashtag>".format(sys.argv[0]), file=sys.stderr)
+    print("{} <hashtag>\n".format(sys.argv[0]), file=sys.stderr)
     print("Do remember to set the envrinment variables.", file=sys.stderr)
 
 
