@@ -50,7 +50,7 @@ Do remember to set the envrinment variables.\n'''
 
 
 def _main():
-    pass
+    unittest.main()
 
 
 if __name__ == '__main__':
